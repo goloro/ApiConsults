@@ -1,0 +1,9 @@
+/*MOBILE*/
+@media screen and (max-width: 450px) {
+    .content {
+        grid-template-columns: 1fr;
+        margin-top: 5%;
+        width: 90%;
+        padding: 5%;
+    }
+}

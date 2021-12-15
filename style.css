@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    top: 0;
+    width: 100%;
+    background-color: #1C1B24;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 5px;
+}
+nav h1 {
+    padding: 1%;
+}
+
+.content {
+    margin: 10% auto 5% auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 1% 2.5% 1% 2.5%;
+}
+.contentItem {
+    border: 2px solid #1C1B24;
+    border-radius: 5px;
+}
+.titulo {
+    margin-top: 2%;
+    text-align: center;
+    color: #1C1B24;
+}
+.titulo h2 {
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 2.5px;
+}
+.titulo p {
+    font-size: 10px;
+    font-family: 'Rajdhani', sans-serif;
+}
+#lineaItem {
+    width: 80%;
+    margin: 2% auto 2% auto;
+    background-color: #1C1B24;
+    height: 1.5px;
+    border: none;
+    border-radius: 2px;
+}
+.boton {
+    width: 100%;
+    display: flex;
+}
+.boton button {
+    margin: 5% auto 5% auto;
+    width: 30%;
+    border: 2px solid #1C1B24;
+    border-radius: 4px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    background-color: #1C1B24;
+}
+.boton button:hover {
+    background-color: white;
+    color: #1C1B24;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #1C1B24;
+}
+footer div {
+    display: flex;
+    margin: auto;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+}
+footer div h4 {
+    margin: auto 0 auto 0;
+    margin-left: 10px;
+}
