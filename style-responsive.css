@@ -1,8 +1,25 @@
+/* PC GRANDE */
+@media screen and (max-width: 3000px) and (min-width: 1000px) {
+    .titulo h2 {
+        font-size: 40px;
+    }
+    .titulo a {
+        font-size: 13px;
+    }
+    .contentApi {
+        margin-top: 1%;
+        margin-bottom: 4%;
+    }
+    .contentApi div {
+        font-size: 22px;
+    }
+}
+
 /*MOBILE*/
 @media screen and (max-width: 450px) {
     .content {
         grid-template-columns: 1fr;
-        margin-top: 20%;
+        margin-top: 55%;
         width: 90%;
         padding: 5%;
     }

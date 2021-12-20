@@ -21,7 +21,7 @@ nav a {
     margin: 10% auto 5% auto;
     width: 70%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 50px;
     padding: 1% 2.5% 1% 2.5%;
 }
@@ -38,9 +38,10 @@ nav a {
     font-family: 'Prompt', sans-serif;
     letter-spacing: 2.5px;
 }
-.titulo p {
+.titulo a {
     font-size: 10px;
     font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
 }
 #lineaItem {
     width: 80%;
@@ -63,6 +64,7 @@ nav a {
     padding-bottom: 1%;
     color: white;
     background-color: #1C1B24;
+    cursor: pointer;
 }
 .boton button:hover {
     background-color: white;
@@ -91,6 +93,7 @@ nav a {
     margin-bottom: 2%;
 }
 
+/* FOOTER */
 footer {
     position: fixed;
     bottom: 0;
