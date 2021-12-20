@@ -3,16 +3,18 @@
     padding: 0;
 }
 nav {
+    position: fixed;
     top: 0;
     width: 100%;
     background-color: #1C1B24;
     text-align: center;
+}
+nav a {
+    padding: 1%;
     color: white;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 5px;
-}
-nav h1 {
-    padding: 1%;
+    text-decoration: none;
 }
 
 .content {
@@ -67,10 +69,30 @@ nav h1 {
     color: #1C1B24;
 }
 
+/* API */
+.contentApi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5% 2% 5% 2%;
+    gap: 20px;
+}
 
+.contentApi div {
+    margin: 15% 0 0% 0;
+    padding: 2% 3% 2% 3%;
+    background-color: #3c3a44;
+    border-radius: 5px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+.contentApi div p {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: flex;
     height: 60px;
